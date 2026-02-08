@@ -96,7 +96,15 @@ export function GlobalSearch({ isIconButton }: { isIconButton?: boolean }) {
           </InputAdornment>
         ),
         endAdornment: (
-          <Box display="flex" flexShrink={0} gap={0.5} sx={{ opacity: 0.7, pointerEvents: 'none' }}>
+          <Box
+            display="flex"
+            flexShrink={0}
+            gap={0.5}
+            sx={{
+              color: '#74747B',
+              pointerEvents: 'none',
+            }}
+          >
             <Trans>
               Press
               <Box
